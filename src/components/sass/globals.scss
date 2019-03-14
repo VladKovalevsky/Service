@@ -1,0 +1,64 @@
+html,body {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.container {
+  max-width: calc(100% - 1em);
+}
+
+.main {
+  flex-grow: 1;
+}
+
+.container-fluid {
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  .row {
+    margin-left: auto;
+    margin-right: auto;
+
+    [class*='col'] {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  }
+}
+
+#root{
+  font-size: 16px;
+  flex-direction: column;
+  min-height: 100vh;
+  display: flex;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.field-error {
+  position: absolute;
+  color: red;
+  font-weight: 500;
+  bottom: -16px;
+  font-size: 14px;
+  left: 0;
+
+  &--next {
+    left: 202px;
+  }
+}
+
+@media only screen and (max-width: 47.9em) {
+  
+}

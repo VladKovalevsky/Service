@@ -1,0 +1,77 @@
+.quote {
+  background-color: #097e89;
+}
+
+.pretitle {
+  font-size: 30px;
+  margin: 28px 0 16px 39px;
+}
+
+.title {
+  font-size: 12px;
+  margin: 0 0 60px 39px;
+}
+
+.subscribe {
+  margin: 63px 52px 65px 152px;
+  display: flex;
+  position: relative;
+}
+
+.subscribe-input {
+  font-size: 12px;
+  border: 1px solid #84bfc4;
+  border-right: 0;
+  height: 45px;
+  width: 200px;
+  outline: none;
+  background-color: #097e89;
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+
+.subscribe-input::-webkit-input-placeholder {
+  color: #84bfc4;
+ }
+
+.subscr-button {
+  font-size: 12px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+  width: 99px;
+  background-color: #fff;
+  color: #097e89;
+  outline: 0;
+}
+
+@media only screen and (max-width: 47.9em) {
+  .pretitle {
+    font-size: 22px;
+  }
+
+  .title {
+    font-size: 12px;
+    margin: 0 0 30px 39px;
+  }
+
+  .subscribe {
+    margin: 31px 0 65px 39px;
+    display: flex;
+    position: relative;
+  }
+
+  .subscribe-input {
+    font-size: 11px;
+    height: 35px;
+    width: 130px;
+  }
+
+  .subscribe-button {
+    font-size: 11px;
+    height: 35px;
+    width: 79px;
+  }
+}
